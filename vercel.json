@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/attachments/:path*",
-      "destination": "https://cdn.discordapp.com/attachments/:path*"
+      "source": "/agczsz1",
+      "destination": "https://mpo1kqgnpl.cloudflare-gateway.com/dns-query"
+    },
+    {
+      "source": "/agczsz2",
+      "destination": "https://knsq0xskyf.cloudflare-gateway.com/dns-query"
     }
   ]
 }
