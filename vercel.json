@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/agczsz1",
-      "destination": "https://mpo1kqgnpl.cloudflare-gateway.com/dns-query"
+      "source": "/agczsz1/:path*",
+      "destination": "https://mpo1kqgnpl.cloudflare-gateway.com/dns-query/:path*"
+    },
+    {
+      "source": "/agczsz2/:path*",
+      "destination": "https://knsq0xskyf.cloudflare-gateway.com/dns-query/:path*"
     }
   ]
 }
